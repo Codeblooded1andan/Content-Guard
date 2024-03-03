@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+h4 {
+    font-family: Ink Free, Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.main_heading{
+    text-align: center;
+    color: rgb(5, 148, 17);
+}
+
+.container {
+    background-color:rgb(255, 255, 255);
+    padding: 5px 20px 15px 20px;
+    border: 1px solid rgb(5, 148, 17);
+    border-radius: 10px;
+}
+body {
+    font-family:Century Gothic, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:15px 15px;
+    font-size: 17px;
+    padding: 8px 8px;
+    font-weight: 100;
+    background-color: rgba(117, 199, 121, 0.445);
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea{
+    font-family: Century Gothic;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(49, 49, 49);
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(5, 148, 17);
+    border-radius: 10px;
+    font-family: Century Gothic, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+}
+input[type="submit"] {
+    background-color: rgb(5, 148, 17);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    width:100%;
+    height: 70px;
+    font-weight: 200px;
+    font-family: Century Gothic, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main_heading:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(148, 5, 5);
+}
+
+input[type="submit"]:hover{
+    background-image:url(25638ca8b85cccc2d210923f86f3368b.gif);
+    color: rgb(255, 255, 255);
+}
